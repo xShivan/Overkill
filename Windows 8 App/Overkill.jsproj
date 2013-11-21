@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>3a1adb80-2809-4342-babe-17ce9bc59d5c</ProjectGuid>
+    <ProjectGuid>60884a65-f19f-4557-9b5a-acf2388b39b5</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
@@ -44,52 +44,54 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateThumbprint>53370B654DE96762E72CCDEE54B403B7302A5EA3</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>Overkill_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-	<Content Include="index.html" />
-	<Content Include="c2runtime.js" />
-	<Content Include="jquery-2.0.0.min.js" />
-	<Content Include="images\background.png" />
-	<Content Include="images\starbig-sheet0.png" />
-	<Content Include="images\starbig-sheet1.png" />
-	<Content Include="images\starbig-sheet2.png" />
-	<Content Include="images\player-sheet0.png" />
-	<Content Include="images\player-sheet1.png" />
-	<Content Include="images\starsmall-sheet0.png" />
-	<Content Include="images\asteroid-sheet0.png" />
-	<Content Include="images\barrier-sheet0.png" />
-	<Content Include="images\shotbasic-sheet0.png" />
-	<Content Include="images\planet-sheet0.png" />
-	<Content Include="images\explosionsmall-sheet0.png" />
-	<Content Include="images\explosionsmall-sheet1.png" />
-	<Content Include="images\explosionsmall-sheet2.png" />
-	<Content Include="images\alienboss-sheet0.png" />
-	<Content Include="images\asteroidbig-sheet0.png" />
-	<Content Include="images\sprite-sheet0.png" />
-	<Content Include="media\bigblast.m4a" />
-	<Content Include="media\death.m4a" />
-	<Content Include="media\laserhit.m4a" />
-	<Content Include="media\smallblast.m4a" />
-	<Content Include="media\lasershot.m4a" />
-	<Content Include="media\lasershotlow.m4a" />
-	<Content Include="icon-16.png" />
-	<Content Include="icon-32.png" />
-	<Content Include="icon-114.png" />
-	<Content Include="icon-128.png" />
-	<Content Include="loading-logo.png" />
-
+    <Content Include="index.html" />
+    <Content Include="c2runtime.js" />
+    <Content Include="jquery-2.0.0.min.js" />
+    <Content Include="images\background.png" />
+    <Content Include="images\starbig-sheet0.png" />
+    <Content Include="images\starbig-sheet1.png" />
+    <Content Include="images\starbig-sheet2.png" />
+    <Content Include="images\player-sheet0.png" />
+    <Content Include="images\player-sheet1.png" />
+    <Content Include="images\starsmall-sheet0.png" />
+    <Content Include="images\asteroid-sheet0.png" />
+    <Content Include="images\barrier-sheet0.png" />
+    <Content Include="images\shotbasic-sheet0.png" />
+    <Content Include="images\planet-sheet0.png" />
+    <Content Include="images\explosionsmall-sheet0.png" />
+    <Content Include="images\explosionsmall-sheet1.png" />
+    <Content Include="images\explosionsmall-sheet2.png" />
+    <Content Include="images\alienboss-sheet0.png" />
+    <Content Include="images\asteroidbig-sheet0.png" />
+    <Content Include="images\sprite-sheet0.png" />
+    <Content Include="media\bigblast.m4a" />
+    <Content Include="media\death.m4a" />
+    <Content Include="media\laserhit.m4a" />
+    <Content Include="media\smallblast.m4a" />
+    <Content Include="media\lasershot.m4a" />
+    <Content Include="media\lasershotlow.m4a" />
+    <Content Include="icon-16.png" />
+    <Content Include="icon-32.png" />
+    <Content Include="icon-114.png" />
+    <Content Include="icon-128.png" />
+    <Content Include="loading-logo.png" />
     <Content Include="app-logo.png" />
     <Content Include="app-smalllogo.png" />
     <Content Include="app-storelogo.png" />
     <Content Include="index.html" />
+    <None Include="Overkill_TemporaryKey.pfx" />
     <Content Include="splashscreen.png" />
-	<Content Include="about.html" />
-	<Content Include="support.html" />
-	<Content Include="privacy.html" />
-	<Content Include="WindowsStoreProxy.xml" />
+    <Content Include="about.html" />
+    <Content Include="support.html" />
+    <Content Include="privacy.html" />
+    <Content Include="WindowsStoreProxy.xml" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />

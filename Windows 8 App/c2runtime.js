@@ -17891,7 +17891,7 @@ cr.behaviors.custom = function(runtime)
 }());
 cr.getProjectModel = function() { return [
 	null,
-	null,
+	"Menu",
 	[
 	[
 		cr.plugins_.Keyboard,
@@ -17942,18 +17942,6 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
-		cr.plugins_.TiledBg,
-		false,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true
-	]
-,	[
 		cr.plugins_.Touch,
 		true,
 		false,
@@ -17964,6 +17952,18 @@ cr.getProjectModel = function() { return [
 		false,
 		false,
 		false
+	]
+,	[
+		cr.plugins_.TiledBg,
+		false,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true
 	]
 ,	[
 		cr.plugins_.Audio,
@@ -18798,7 +18798,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[0, 982, 0, 17, 230, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[-9, 982, 0, 17, 230, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				6,
 				6,
 				[
@@ -18813,7 +18813,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[1366, 982, 0, 17, 230, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[1375, 982, 0, 17, 230, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				6,
 				7,
 				[
@@ -21576,6 +21576,47 @@ false,false,1765369126503753,false
 				cr.system_object.prototype.acts.GoToLayout,
 				null,
 				7543438526016959,
+				false
+				,[
+				[
+					6,
+					"Gameplay"
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			3389924925832965,
+			[
+			[
+				4,
+				cr.plugins_.Keyboard.prototype.cnds.OnKey,
+				null,
+				1,
+				false,
+				false,
+				false,
+				8694406536860763,
+				false
+				,[
+				[
+					9,
+					32
+				]
+				]
+			]
+			],
+			[
+			[
+				-1,
+				cr.system_object.prototype.acts.GoToLayout,
+				null,
+				7359965492614167,
 				false
 				,[
 				[
