@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="1e23188d-4d84-40ed-9ceb-2f9bc394447a" Version="1.0.0.0" Publisher="CN=Michał" />
+  <Identity Name="21067MichaCywiski.Overkill" Version="1.0.0.0" Publisher="CN=33AF460A-73E8-49A3-8C5C-017DB2AE8BFE" />
   <Properties>
     <DisplayName>Overkill</DisplayName>
     <Description>Simple 8bit-like space shooter game. Very classic gameplay experiance.</Description>
@@ -19,6 +19,9 @@
       <VisualElements DisplayName="Overkill" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Simple 8bit-like space shooter game. Very classic gameplay experiance." ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="logoOnly" />
         <SplashScreen Image="splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>
