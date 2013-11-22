@@ -17906,6 +17906,18 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
+		cr.plugins_.Sprite,
+		false,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
+		false
+	]
+,	[
 		cr.plugins_.Text,
 		false,
 		true,
@@ -17927,18 +17939,6 @@ cr.getProjectModel = function() { return [
 		false,
 		false,
 		false,
-		false
-	]
-,	[
-		cr.plugins_.Sprite,
-		false,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
 		false
 	]
 ,	[
@@ -18588,6 +18588,109 @@ cr.getProjectModel = function() { return [
 		1103893213397029,
 		[]
 	]
+,	[
+		"t25",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			1183645018278763,
+			[
+				["images/controlfire-sheet0.png", 130, 0, 0, 24, 24, 1, 0.5, 0.5,[],[-0.333333,-0.333333,0,-0.5,0.333333,-0.333333,0.5,0,0.333333,0.333333,0,0.5,-0.333333,0.333333,-0.5,0],3]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		4112283177645358,
+		[]
+	]
+,	[
+		"t26",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			4314357858640276,
+			[
+				["images/controlleft-sheet0.png", 118, 0, 0, 16, 28, 1, 0.5, 0.5,[],[0,-0.214286,0,-0.357143,0.5,-0.5,0.5,0.5,0,0.357143,0,0.214286,-0.5,0],3]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		9976442001164312,
+		[]
+	]
+,	[
+		"t27",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			8971595030922218,
+			[
+				["images/controlright-sheet0.png", 117, 0, 0, 16, 28, 1, 0.5, 0.5,[],[-0.5,-0.5,0,-0.214286,0,-0.214286,0.5,0,0,0.214286,0,0.214286,-0.5,0.5],3]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		3887888818972372,
+		[]
+	]
+,	[
+		"t28",
+		cr.plugins_.Text,
+		false,
+		[],
+		0,
+		0,
+		null,
+		null,
+		[
+		],
+		false,
+		false,
+		1493901287900617,
+		[]
+	]
 	],
 	[
 	],
@@ -18752,7 +18855,7 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
-				[640, 982, 0, 92, 84, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[683, 975, 0, 92, 84, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				2,
 				2,
 				[
@@ -18945,7 +19048,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[683, 493, 0, 384.162, 149.937, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[683, 480, 0, 384.162, 149.937, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				23,
 				20,
 				[
@@ -18960,6 +19063,71 @@ cr.getProjectModel = function() { return [
 					1,
 					1,
 					1,
+					0,
+					0
+				]
+			]
+,			[
+				[683, 598, 0, 24, 24, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				25,
+				23,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[558, 624, 0, 16, 28, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				26,
+				24,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[804, 624, 0, 16, 28, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				27,
+				25,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[1255, 13, 0, 100, 49, 0, 0, 1, 0, 0, 0, 0, []],
+				28,
+				26,
+				[
+				],
+				[
+				],
+				[
+					"Menu",
+					0,
+					"bold 26pt Consolas",
+					"rgb(255,255,255)",
+					0,
+					0,
+					0,
 					0,
 					0
 				]
@@ -21349,6 +21517,263 @@ false,false,1765369126503753,false
 			]
 			]
 		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			1126008370997621,
+			[
+			[
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+				null,
+				1,
+				false,
+				false,
+				false,
+				4458249334712451,
+				false
+				,[
+				[
+					4,
+					28
+				]
+				]
+			]
+			],
+			[
+			[
+				-1,
+				cr.system_object.prototype.acts.GoToLayout,
+				null,
+				5029268703543252,
+				false
+				,[
+				[
+					6,
+					"Menu"
+				]
+				]
+			]
+,			[
+				-1,
+				cr.system_object.prototype.acts.RestartLayout,
+				null,
+				4266252892254101,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.acts.ResetGlobals,
+				null,
+				9935309981782851,
+				false
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			3692188254553427,
+			[
+			[
+				20,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+				null,
+				1,
+				false,
+				false,
+				false,
+				2974640668113595,
+				false
+				,[
+				[
+					4,
+					25
+				]
+				]
+			]
+			],
+			[
+			[
+				2,
+				cr.plugins_.Sprite.prototype.acts.Spawn,
+				null,
+				1838458761965999,
+				false
+				,[
+				[
+					4,
+					7
+				]
+,				[
+					5,
+					[
+						0,
+						3
+					]
+				]
+,				[
+					7,
+					[
+						0,
+						0
+					]
+				]
+				]
+			]
+,			[
+				15,
+				cr.plugins_.Audio.prototype.acts.Play,
+				null,
+				8478780596903301,
+				false
+				,[
+				[
+					2,
+					["lasershotlow",false]
+				]
+,				[
+					3,
+					0
+				]
+,				[
+					0,
+					[
+						0,
+						0
+					]
+				]
+,				[
+					1,
+					[
+						2,
+						""
+					]
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			7059168681048135,
+			[
+			[
+				20,
+				cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+				null,
+				0,
+				false,
+				false,
+				false,
+				1600743530032695,
+				false
+				,[
+				[
+					4,
+					26
+				]
+				]
+			]
+			],
+			[
+			[
+				2,
+				cr.behaviors.custom.prototype.acts.AcceleratePos,
+				"CustomMovement",
+				8407024621725945,
+				false
+				,[
+				[
+					0,
+					[
+						0,
+						400
+					]
+				]
+,				[
+					0,
+					[
+						0,
+						0
+					]
+				]
+,				[
+					0,
+					[
+						0,
+						982
+					]
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			6948203158582658,
+			[
+			[
+				20,
+				cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+				null,
+				0,
+				false,
+				false,
+				false,
+				1247276619071691,
+				false
+				,[
+				[
+					4,
+					27
+				]
+				]
+			]
+			],
+			[
+			[
+				2,
+				cr.behaviors.custom.prototype.acts.AcceleratePos,
+				"CustomMovement",
+				2316309704098814,
+				false
+				,[
+				[
+					0,
+					[
+						0,
+						400
+					]
+				]
+,				[
+					0,
+					[
+						0,
+						1366
+					]
+				]
+,				[
+					0,
+					[
+						0,
+						982
+					]
+				]
+				]
+			]
+			]
+		]
 		]
 	]
 ,	[
@@ -21643,7 +22068,7 @@ false,false,1765369126503753,false
 	false,
 	0,
 	false,
-	22,
+	27,
 	false,
 	[
 	]

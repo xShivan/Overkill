@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1385076920
+#1385142050
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -20,6 +20,9 @@ images\explosionsmall-sheet2.png
 images\alienboss-sheet0.png
 images\asteroidbig-sheet0.png
 images\sprite-sheet0.png
+images\controlfire-sheet0.png
+images\controlleft-sheet0.png
+images\controlright-sheet0.png
 media\bigblast.m4a
 media\death.m4a
 media\laserhit.m4a
