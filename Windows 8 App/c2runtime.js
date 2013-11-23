@@ -17906,18 +17906,6 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
-		cr.plugins_.Sprite,
-		false,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
-		true,
-		false
-	]
-,	[
 		cr.plugins_.Text,
 		false,
 		true,
@@ -17942,15 +17930,15 @@ cr.getProjectModel = function() { return [
 		false
 	]
 ,	[
-		cr.plugins_.Touch,
+		cr.plugins_.Sprite,
+		false,
 		true,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
+		true,
+		true,
+		true,
+		true,
+		true,
+		true,
 		false
 	]
 ,	[
@@ -17964,6 +17952,18 @@ cr.getProjectModel = function() { return [
 		true,
 		true,
 		true
+	]
+,	[
+		cr.plugins_.Touch,
+		true,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
 	]
 ,	[
 		cr.plugins_.Audio,
@@ -18691,6 +18691,38 @@ cr.getProjectModel = function() { return [
 		1493901287900617,
 		[]
 	]
+,	[
+		"t29",
+		cr.plugins_.Text,
+		false,
+		[],
+		0,
+		0,
+		null,
+		null,
+		[
+		],
+		false,
+		false,
+		3379145389798638,
+		[]
+	]
+,	[
+		"t30",
+		cr.plugins_.Text,
+		false,
+		[],
+		0,
+		0,
+		null,
+		null,
+		[
+		],
+		false,
+		false,
+		7290276322863943,
+		[]
+	]
 	],
 	[
 	],
@@ -19172,6 +19204,91 @@ cr.getProjectModel = function() { return [
 				[
 				],
 				[
+					0,
+					0
+				]
+			]
+,			[
+				[22, 606, 0, 884, 30, 0, 0, 1, 0, 0, 0, 0, []],
+				29,
+				22,
+				[
+				],
+				[
+				],
+				[
+					"Touch controls: Use arrows for fire and circle for shooting:",
+					0,
+					"16pt Consolas",
+					"rgb(255,255,255)",
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			]
+,			[
+				[892, 620, 0, 16, 28, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				26,
+				27,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[929, 620, 0, 16, 28, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				27,
+				28,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[963, 620, 0, 24, 24, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				25,
+				29,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[22, 670, 0, 1020, 30, 0, 0, 1, 0, 0, 0, 0, []],
+				30,
+				30,
+				[
+				],
+				[
+				],
+				[
+					"Classic controls: Use keyboard arrows for fire and spacebar for shooting",
+					0,
+					"16pt Consolas",
+					"rgb(255,255,255)",
+					0,
+					0,
+					0,
 					0,
 					0
 				]
@@ -22068,7 +22185,7 @@ false,false,1765369126503753,false
 	false,
 	0,
 	false,
-	27,
+	31,
 	false,
 	[
 	]

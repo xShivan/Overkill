@@ -19,9 +19,6 @@
       <VisualElements DisplayName="Overkill" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Simple 8bit-like space shooter game. Very classic gameplay experiance." ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="logoOnly" />
         <SplashScreen Image="splashscreen.png" />
-        <InitialRotationPreference>
-          <Rotation Preference="landscape" />
-        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>
